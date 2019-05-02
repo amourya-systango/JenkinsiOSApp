@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390649A8227B0795004509A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390649A7227B0795004509A9 /* AppDelegate.swift */; };
+		390649AA227B0795004509A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390649A9227B0795004509A9 /* ViewController.swift */; };
+		390649AD227B0795004509A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390649AB227B0795004509A9 /* Main.storyboard */; };
+		390649AF227B0797004509A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390649AE227B0797004509A9 /* Assets.xcassets */; };
+		390649B2227B0797004509A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390649B0227B0797004509A9 /* LaunchScreen.storyboard */; };
+		390649BD227B0797004509A9 /* JenkinsiOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390649BC227B0797004509A9 /* JenkinsiOSAppTests.swift */; };
+		390649C8227B0797004509A9 /* JenkinsiOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390649C7227B0797004509A9 /* JenkinsiOSAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		390649B9227B0797004509A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3906499C227B0795004509A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390649A3227B0795004509A9;
+			remoteInfo = JenkinsiOSApp;
+		};
+		390649C4227B0797004509A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3906499C227B0795004509A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390649A3227B0795004509A9;
+			remoteInfo = JenkinsiOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390649A4227B0795004509A9 /* JenkinsiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390649A7227B0795004509A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		390649A9227B0795004509A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		390649AC227B0795004509A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		390649AE227B0797004509A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390649B1227B0797004509A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		390649B3227B0797004509A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390649B8227B0797004509A9 /* JenkinsiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390649BC227B0797004509A9 /* JenkinsiOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsiOSAppTests.swift; sourceTree = "<group>"; };
+		390649BE227B0797004509A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390649C3227B0797004509A9 /* JenkinsiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390649C7227B0797004509A9 /* JenkinsiOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsiOSAppUITests.swift; sourceTree = "<group>"; };
+		390649C9227B0797004509A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		390649A1227B0795004509A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390649B5227B0797004509A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390649C0227B0797004509A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3906499B227B0795004509A9 = {
+			isa = PBXGroup;
+			children = (
+				390649A6227B0795004509A9 /* JenkinsiOSApp */,
+				390649BB227B0797004509A9 /* JenkinsiOSAppTests */,
+				390649C6227B0797004509A9 /* JenkinsiOSAppUITests */,
+				390649A5227B0795004509A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		390649A5227B0795004509A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390649A4227B0795004509A9 /* JenkinsiOSApp.app */,
+				390649B8227B0797004509A9 /* JenkinsiOSAppTests.xctest */,
+				390649C3227B0797004509A9 /* JenkinsiOSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390649A6227B0795004509A9 /* JenkinsiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				390649A7227B0795004509A9 /* AppDelegate.swift */,
+				390649A9227B0795004509A9 /* ViewController.swift */,
+				390649AB227B0795004509A9 /* Main.storyboard */,
+				390649AE227B0797004509A9 /* Assets.xcassets */,
+				390649B0227B0797004509A9 /* LaunchScreen.storyboard */,
+				390649B3227B0797004509A9 /* Info.plist */,
+			);
+			path = JenkinsiOSApp;
+			sourceTree = "<group>";
+		};
+		390649BB227B0797004509A9 /* JenkinsiOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				390649BC227B0797004509A9 /* JenkinsiOSAppTests.swift */,
+				390649BE227B0797004509A9 /* Info.plist */,
+			);
+			path = JenkinsiOSAppTests;
+			sourceTree = "<group>";
+		};
+		390649C6227B0797004509A9 /* JenkinsiOSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				390649C7227B0797004509A9 /* JenkinsiOSAppUITests.swift */,
+				390649C9227B0797004509A9 /* Info.plist */,
+			);
+			path = JenkinsiOSAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		390649A3227B0795004509A9 /* JenkinsiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390649CC227B0797004509A9 /* Build configuration list for PBXNativeTarget "JenkinsiOSApp" */;
+			buildPhases = (
+				390649A0227B0795004509A9 /* Sources */,
+				390649A1227B0795004509A9 /* Frameworks */,
+				390649A2227B0795004509A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsiOSApp;
+			productName = JenkinsiOSApp;
+			productReference = 390649A4227B0795004509A9 /* JenkinsiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		390649B7227B0797004509A9 /* JenkinsiOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390649CF227B0797004509A9 /* Build configuration list for PBXNativeTarget "JenkinsiOSAppTests" */;
+			buildPhases = (
+				390649B4227B0797004509A9 /* Sources */,
+				390649B5227B0797004509A9 /* Frameworks */,
+				390649B6227B0797004509A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390649BA227B0797004509A9 /* PBXTargetDependency */,
+			);
+			name = JenkinsiOSAppTests;
+			productName = JenkinsiOSAppTests;
+			productReference = 390649B8227B0797004509A9 /* JenkinsiOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		390649C2227B0797004509A9 /* JenkinsiOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390649D2227B0797004509A9 /* Build configuration list for PBXNativeTarget "JenkinsiOSAppUITests" */;
+			buildPhases = (
+				390649BF227B0797004509A9 /* Sources */,
+				390649C0227B0797004509A9 /* Frameworks */,
+				390649C1227B0797004509A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390649C5227B0797004509A9 /* PBXTargetDependency */,
+			);
+			name = JenkinsiOSAppUITests;
+			productName = JenkinsiOSAppUITests;
+			productReference = 390649C3227B0797004509A9 /* JenkinsiOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3906499C227B0795004509A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MacBook16;
+				TargetAttributes = {
+					390649A3227B0795004509A9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					390649B7227B0797004509A9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 390649A3227B0795004509A9;
+					};
+					390649C2227B0797004509A9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 390649A3227B0795004509A9;
+					};
+				};
+			};
+			buildConfigurationList = 3906499F227B0795004509A9 /* Build configuration list for PBXProject "JenkinsiOSApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3906499B227B0795004509A9;
+			productRefGroup = 390649A5227B0795004509A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				390649A3227B0795004509A9 /* JenkinsiOSApp */,
+				390649B7227B0797004509A9 /* JenkinsiOSAppTests */,
+				390649C2227B0797004509A9 /* JenkinsiOSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		390649A2227B0795004509A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390649B2227B0797004509A9 /* LaunchScreen.storyboard in Resources */,
+				390649AF227B0797004509A9 /* Assets.xcassets in Resources */,
+				390649AD227B0795004509A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390649B6227B0797004509A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390649C1227B0797004509A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		390649A0227B0795004509A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390649AA227B0795004509A9 /* ViewController.swift in Sources */,
+				390649A8227B0795004509A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390649B4227B0797004509A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390649BD227B0797004509A9 /* JenkinsiOSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390649BF227B0797004509A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390649C8227B0797004509A9 /* JenkinsiOSAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		390649BA227B0797004509A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390649A3227B0795004509A9 /* JenkinsiOSApp */;
+			targetProxy = 390649B9227B0797004509A9 /* PBXContainerItemProxy */;
+		};
+		390649C5227B0797004509A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390649A3227B0795004509A9 /* JenkinsiOSApp */;
+			targetProxy = 390649C4227B0797004509A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		390649AB227B0795004509A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390649AC227B0795004509A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		390649B0227B0797004509A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390649B1227B0797004509A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		390649CA227B0797004509A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		390649CB227B0797004509A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		390649CD227B0797004509A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsiOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.systango.JenkinsiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		390649CE227B0797004509A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsiOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.systango.JenkinsiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		390649D0227B0797004509A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsiOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.systango.JenkinsiOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsiOSApp.app/JenkinsiOSApp";
+			};
+			name = Debug;
+		};
+		390649D1227B0797004509A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsiOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.systango.JenkinsiOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsiOSApp.app/JenkinsiOSApp";
+			};
+			name = Release;
+		};
+		390649D3227B0797004509A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsiOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.systango.JenkinsiOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinsiOSApp;
+			};
+			name = Debug;
+		};
+		390649D4227B0797004509A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsiOSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenkins.systango.JenkinsiOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinsiOSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3906499F227B0795004509A9 /* Build configuration list for PBXProject "JenkinsiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390649CA227B0797004509A9 /* Debug */,
+				390649CB227B0797004509A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390649CC227B0797004509A9 /* Build configuration list for PBXNativeTarget "JenkinsiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390649CD227B0797004509A9 /* Debug */,
+				390649CE227B0797004509A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390649CF227B0797004509A9 /* Build configuration list for PBXNativeTarget "JenkinsiOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390649D0227B0797004509A9 /* Debug */,
+				390649D1227B0797004509A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390649D2227B0797004509A9 /* Build configuration list for PBXNativeTarget "JenkinsiOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390649D3227B0797004509A9 /* Debug */,
+				390649D4227B0797004509A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3906499C227B0795004509A9 /* Project object */;
+}
