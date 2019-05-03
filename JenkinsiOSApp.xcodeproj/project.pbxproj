@@ -432,16 +432,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H2BP5WQQ22;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akhilesh Mourya (W7ZL38KR8M)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8BXCM3ATJM;
 				INFOPLIST_FILE = JenkinsiOSApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.systango.jenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.systango.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDevelopmentProvisioning;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,16 +453,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H2BP5WQQ22;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akhilesh Mourya (W7ZL38KR8M)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8BXCM3ATJM;
 				INFOPLIST_FILE = JenkinsiOSApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.systango.jenkins;
+				PRODUCT_BUNDLE_IDENTIFIER = com.systango.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDevelopmentProvisioning;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
